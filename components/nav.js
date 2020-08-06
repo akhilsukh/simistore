@@ -13,7 +13,7 @@ const links = [
 export default function Nav() {
   return (
     <nav>
-      <ul className="flex justify-between items-center p-4 px-12 bg-blue-900">
+      <ul className="flex justify-around items-center p-4 px-12 bg-blue-700 ">
         <li>
           <Link href="/">
             <a className="text-lg font-semibold text-white no-underline">
@@ -25,7 +25,7 @@ export default function Nav() {
           {links.map(({ href, label, icon }) => (
             <li key={`${href}${label}${icon}`}>
               <Link href={href}>
-                <a className="text-gray-100 font-semibold hover:underline py-2 px-4">
+                <a className="text-gray-100 hover:underline py-2 px-4">
                   {label}
                 </a>
               </Link>
