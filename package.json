@@ -5,13 +5,11 @@
     "dev": "next",
     "build": "next build",
     "static": "next export",
-    "start": "next start",
-    "postbuild": "next-on-netlify"
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",
     "next-images": "^1.4.1",
-    "next-on-netlify": "^2.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
