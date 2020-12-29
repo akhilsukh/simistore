@@ -2,22 +2,17 @@ import Link from "next/link";
 
 export default function card(props) {
 
-    const { name, price, img } = props;
+    const { title, desc, img } = props;
 
     return (
-        <>
-            <div className="w-auto h-auto p-2 m-2 border rounded shadow-md">
-                <img className="w-64 h-64 border rounded" src={img}></img>
-                <div className="flex flex-column justify-between p-2">
-                    <h3 className="">
-                        {name}
-                    </h3>
-
-                    <h3 className="">
-                        ${price}
-                    </h3>
-                </div>
-            </div>
-        </>
+        <div className="w-auto h-auto p-2 m-2">
+            <img className="w-96 m-auto" src={img}></img>
+                <p className="uppercase text-lg pt-4 w-full text-center">
+                    {title}
+                </p>
+                <p className="w-full text-center">
+                    {desc}
+                </p>
+        </div>
     );
 }
