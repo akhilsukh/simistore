@@ -1,5 +1,5 @@
 import Nav from "../components/nav";
-import Card from "../components/card";
+import Card from "../components/collection";
 import Head from "next/head";
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
       <div className="py-10 mx-8">
         {/* <h1 className="text-2xl text-center text-accent-1">About SimiSews</h1> */}
         <div className="max-w-4xl m-auto my-4">
-          <h2 className="text-xl my-4 italic">Nature Inspired. Forever.</h2>
+          <h2 className="text-xl my-4 italic">Simple. But Elegant.</h2>
           <p className="my-4">
             SimiSews was inspired by the unique style and energy nature and its ever changing seasons display. Come visit our nature-inspired catalog and connect with the quality items that we love to share.
           </p>

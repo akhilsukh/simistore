@@ -1,0 +1,132 @@
+{
+  "catalog": {
+    "count": 2,
+    "items": [
+      {
+        "title": "Botanical Print Silk Top",
+        "price": 39.99,
+        "path": "botanical-silk-top",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_b37d60bee3ac4242be96bd02df15da36~mv2.jpeg/v1/fill/w_573,h_573,al_c,q_80,usm_0.66_1.00_0.01/b29918_b37d60bee3ac4242be96bd02df15da36~mv2.webp",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": ""
+          }
+        ],
+        "collection": ["tops"],
+        "featured": 1
+      },
+      {
+        "title": "Flannel Poncho",
+        "price": 54.99,
+        "path": "flannel-poncho",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_54d0324695eb46f780014d1df4388266~mv2.jpeg/v1/fill/w_575,h_575,al_c,q_80,usm_0.66_1.00_0.01/b29918_54d0324695eb46f780014d1df4388266~mv2.webp",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": ""
+          }
+        ],
+        "collection": ["winter-wear"],
+        "featured": 1
+      },
+      {
+        "title": "Canvas Tote Bag",
+        "price": 11.99,
+        "path": "canvas-bag",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_4c8625bc502945ecb6f6f8a80db56957~mv2.jpg/v1/fill/w_573,h_573,al_c,q_80,usm_0.66_1.00_0.01/b29918_4c8625bc502945ecb6f6f8a80db56957~mv2.webp",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": 1
+          }
+        ],
+        "collection": ["accessories"],
+        "featured": 1
+      },
+      {
+        "title": "Drawstring Pouch",
+        "price": 7.49,
+        "path": "drawstring-pouch",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_07096e7c2e4945db9ed706b16c1b170d~mv2.jpeg/v1/fill/w_573,h_573,al_c,q_80,usm_0.66_1.00_0.01/b29918_07096e7c2e4945db9ed706b16c1b170d~mv2.webpprice",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": ""
+          }
+        ],
+        "collection": ["accessories"],
+        "featured": 1
+      },
+      {
+        "title": "Blue White Striped Top",
+        "price": 13.99,
+        "path": "blue-striped-top",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_31aa9eb704c84b938502da1817af772a~mv2.jpeg/v1/fill/w_573,h_573,al_c,q_80,usm_0.66_1.00_0.01/b29918_31aa9eb704c84b938502da1817af772a~mv2.webp",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": ""
+          }
+        ],
+        "collection": ["tops"],
+        "featured": 0
+      },
+      {
+        "title": "Ruffled Neck Yellow Top",
+        "price": 13.99,
+        "path": "ruffled-yellow-top",
+        "desc": "This is a description.",
+        "imgMain": "https://static.wixstatic.com/media/b29918_fa2882cf56444d8a868f6b544df01703~mv2.jpeg/v1/fill/w_575,h_575,al_c,q_80,usm_0.66_1.00_0.01/b29918_fa2882cf56444d8a868f6b544df01703~mv2.webp",
+        "img-side": [
+          {
+            "img": ""
+          },
+          {
+            "img": ""
+          }
+        ],
+        "collection": ["tops"],
+        "featured": 0
+      }
+    ]
+  },
+  "collections": {
+    "count": 3,
+    "list": [
+      {
+        "name": "Tops",
+        "id": "tops",
+        "desc": "Cotton and Silk tops that you can wear daily.",
+        "banner": "https://static.wixstatic.com/media/b29918_9b79bd0b7c204d95b84ecd20d3f9039c~mv2.jpeg/v1/fill/w_555,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/b29918_9b79bd0b7c204d95b84ecd20d3f9039c~mv2.webp"
+      },
+      {
+        "name": "Winter Wear",
+        "id": "winter-wear",
+        "desc": "Stay warm with our versatile additions.",
+        "banner": "https://static.wixstatic.com/media/b29918_b5b817d932ee472caa32bd9f4a3ebb39~mv2.jpeg/v1/fill/w_555,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/b29918_b5b817d932ee472caa32bd9f4a3ebb39~mv2.webp"
+      },
+      {
+        "name": "Accessories",
+        "id": "accessories",
+        "desc": "Masks, bags and pouches.",
+        "banner": "https://static.wixstatic.com/media/b29918_20e55903708c48b8b7d24821a592117d~mv2.jpeg/v1/fill/w_555,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/b29918_20e55903708c48b8b7d24821a592117d~mv2.webp"
+      }
+    ]
+  }
+}

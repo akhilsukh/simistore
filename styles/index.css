@@ -8,7 +8,7 @@ html{
 }
 
 .filter{
-  filter: brightness(0.7);
+  backdrop-filter: blur(4px) brightness(0.8);
 }
 
 .card-container{

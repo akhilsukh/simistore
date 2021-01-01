@@ -1,28 +1,70 @@
 import Nav from "../../components/nav";
-import Card from "../../components/card";
-import CardContainer from "../../components/card-container";
-import Catalog from "../../components/catalog";
-import CatalogItem from "../../components/catalog-items";
+// import fs from "fs";
+import path from "path";
 import Head from "next/head";
-import Router, { useRouter } from 'next/router'
+import Router, {useRouter} from 'next/router'
+import json from "../../public/data.json"
 
-// import mask1 from "../images/mask1.png"
+export default function CatalogView(props) {
+		// const {pid} = useRouter().query;
 
-export default function CatalogView() {
-  const { pid } = useRouter().query;
+		return (
+				<div>
+						<Head>
+								<title>{props.title}</title>
+						</Head>
+						<Nav/>
 
-  return (
-    <div>
-      <Head>
-        <title>{pid}</title>
-      </Head>
-      <Nav />
+						<div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl m-auto p-12">
+								<div className="col-span-1 p-4">
+										<img className="text-5xl" src={props.imgMain} alt="item image"/>
+								</div>
 
-      <div className="flex flex-col w-full max-w-7xl m-auto py-16 items-center justify-center">
-            <h2 className="text-4xl">{pid}</h2>
-            <p className="m-4">description</p>
-        </div>
+								<div className="col-span-1 p-4">
+										<h2 className="text-4xl w-full">{props.title}</h2>
+										<p className="m-4 text-xl">${props.price}</p>
+										<p className="m-4 text-lg text-gray-800">{props.desc}</p>
+								</div>
+						</div>
+				</div>
+		);
+}
 
-    </div>
-  );
+export async function getStaticPaths() {
+		const items = json.catalog.items;
+		var path = [];
+		for (var i = 0; i < items.length; i++) {
+				path.push(items[i].path)
+		}
+
+		const paths = path.map((pid) => ({
+				params: {
+						pid: pid
+				},
+		}));
+
+		return {
+				paths: paths,
+				fallback: false,
+		};
+}
+
+export async function getStaticProps({params: {pid}}) {
+		const items = json.catalog.items;
+		var item;
+		for (let i = 0; i < items.length; i++) {
+				if (items[i].path === pid) {
+						item = items[i];
+				}
+		}
+
+		return {
+				props: {
+						"pid": pid,
+						"title": item.title,
+						"price": item.price,
+						"imgMain": item.imgMain.toString(),
+						"desc": item.desc
+				},
+		};
 }
