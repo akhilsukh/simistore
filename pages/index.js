@@ -21,7 +21,7 @@ export default function IndexPage() {
         <img className="object-cover h-screen w-full px-0 m-auto z-0 absolute" src={"https://static.wixstatic.com/media/b29918_671ae260e3d846b6b482eedf873d44de~mv2.jpeg/v1/fill/w_1122,h_946,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/b29918_671ae260e3d846b6b482eedf873d44de~mv2.webp"}  alt="banner image of cloth"/>
         <div className="object-bottom text-white z-10 m-auto absolute text-center w-fill inset-x-0 py-12 px-8 filter">
           <h1 className="text-6xl font-bold text-center">SimiSews</h1>
-          <p className="text-xl lg:w-1/2 m-auto text-center">SimiSews is a freshly-launched clothing store based in Bay area, California. New fresh launch to offer great comfort without sacrificing style. Visit us to try our must-have collections for yourself.</p>
+          <p className="text-xl lg:w-1/2 m-auto text-center">SimiSews is a freshly-launched clothing store based in Cupertino, California. This brand offers great comfort without sacrificing style.</p>
         </div>
       </div>
 
