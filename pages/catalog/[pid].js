@@ -22,7 +22,7 @@ export default function CatalogView(props) {
 
 								<div className="col-span-1 p-4">
 										<h2 className="text-4xl w-full">{props.title}</h2>
-										<h3 className="my-4 text-2xl">${props.price}</h3>
+										<h3 className="my-4 text-2xl">{props.price}</h3>
 										<h3 className="text-lg mt-6">Description:</h3>
 										<p className="m-4 text-lg text-gray-800">{props.desc}</p>
 										<h3 className="text-lg mt-6">Product Info:</h3>

@@ -12,7 +12,7 @@ export default function  CatalogItem(props) {
                     {title}
                 </p>
                 <p className="w-full text-center text-gray-800 catalog-box-price">
-                    ${price}
+                    {price}
                 </p>
             </div>
         </Link>

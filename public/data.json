@@ -4,7 +4,7 @@
     "items": [
       {
         "title": "Botanical Print Silk Top",
-        "price": 39.99,
+        "price": "$$",
         "path": "botanical-silk-top",
         "desc": "Sleeveless printed silk top.",
         "sizing": {
@@ -25,7 +25,7 @@
       },
       {
         "title": "Flannel Poncho",
-        "price": 54.99,
+        "price": "$$$",
         "path": "flannel-poncho",
         "desc": "Red and navy blue plaid patterned flannel poncho with hoodie.",
         "sizing": {
@@ -46,7 +46,7 @@
       },
       {
         "title": "Canvas Tote Bag",
-        "price": 11.99,
+        "price": "$",
         "path": "canvas-bag",
         "desc": "Canvas LiveLaughLove bag for grocery, library books or day at the beach. Pockets for keys.",
         "sizing": {
@@ -67,7 +67,7 @@
       },
       {
         "title": "Drawstring Pouch",
-        "price": 7.49,
+        "price": "$",
         "path": "drawstring-pouch",
         "desc": "Pouch for all things small! Cotton printed fabric, washable.",
         "sizing": {
@@ -88,7 +88,7 @@
       },
       {
         "title": "Blue White Striped Top",
-        "price": 13.99,
+        "price": "$$",
         "path": "blue-striped-top",
         "desc": "Easy fit top with white lace and frill sleeves, perfect a for summer day. 100% cotton.",
         "sizing": {
@@ -109,7 +109,7 @@
       },
       {
         "title": "Ruffled Neck Yellow Top",
-        "price": 13.99,
+        "price": "$$",
         "path": "ruffled-yellow-top",
         "desc": "This is a description.",
         "sizing": {
