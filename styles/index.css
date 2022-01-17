@@ -11,6 +11,10 @@ html{
   backdrop-filter: blur(4px) brightness(0.8);
 }
 
+.title-card {
+  background-color: #00000050;
+}
+
 .card-container{
   @apply flex;
   @apply flex-row;
